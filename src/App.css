@@ -11,6 +11,10 @@
   color: white;
 }
 
+.Body {
+  max-width: 80vw;
+}
+
 .orange {
   background-color: orange;
 }
@@ -24,9 +28,9 @@
 }
 
 .green {
-  background-color: lightseagreen;
+  background-color: palegoldenrod;
 }
 
 .red {
-  background-color: lightcoral;
+  background-color: plum;
 }

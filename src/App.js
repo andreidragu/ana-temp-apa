@@ -35,7 +35,6 @@ class App extends Component {
             xmlData: this.xmlToJson(data).response
           };
         });
-        setTimeout(this.loadAppData, 1000);
       });
   };
 

@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/ana-temp-apa/static/css/main.19393e92.chunk.css",
-    "main.js": "/ana-temp-apa/static/js/main.baf9caa6.chunk.js",
-    "main.js.map": "/ana-temp-apa/static/js/main.baf9caa6.chunk.js.map",
+    "main.css": "/ana-temp-apa/static/css/main.c4112b68.chunk.css",
+    "main.js": "/ana-temp-apa/static/js/main.f1fc1906.chunk.js",
+    "main.js.map": "/ana-temp-apa/static/js/main.f1fc1906.chunk.js.map",
     "runtime~main.js": "/ana-temp-apa/static/js/runtime~main.2be17d9c.js",
     "runtime~main.js.map": "/ana-temp-apa/static/js/runtime~main.2be17d9c.js.map",
-    "static/js/2.b41502e9.chunk.js": "/ana-temp-apa/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/ana-temp-apa/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.cc2e8c26.chunk.js": "/ana-temp-apa/static/js/2.cc2e8c26.chunk.js",
+    "static/js/2.cc2e8c26.chunk.js.map": "/ana-temp-apa/static/js/2.cc2e8c26.chunk.js.map",
     "index.html": "/ana-temp-apa/index.html",
-    "precache-manifest.24845ed085cf4cf7a62ddac736ed1b26.js": "/ana-temp-apa/precache-manifest.24845ed085cf4cf7a62ddac736ed1b26.js",
+    "precache-manifest.2451753e73a9c7d5e58440ab2acd888f.js": "/ana-temp-apa/precache-manifest.2451753e73a9c7d5e58440ab2acd888f.js",
     "service-worker.js": "/ana-temp-apa/service-worker.js",
-    "static/css/main.19393e92.chunk.css.map": "/ana-temp-apa/static/css/main.19393e92.chunk.css.map",
-    "static/media/logo.svg": "/ana-temp-apa/static/media/logo.5d5d9eef.svg"
+    "static/css/main.c4112b68.chunk.css.map": "/ana-temp-apa/static/css/main.c4112b68.chunk.css.map"
   }
 }

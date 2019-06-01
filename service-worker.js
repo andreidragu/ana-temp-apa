@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ana-temp-apa/precache-manifest.2451753e73a9c7d5e58440ab2acd888f.js"
+  "/ana-temp-apa/precache-manifest.27d5a4e2c1177513daecdaa8f656f745.js"
 );
 
 self.addEventListener('message', (event) => {

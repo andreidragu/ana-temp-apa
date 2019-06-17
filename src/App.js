@@ -22,7 +22,7 @@ class App extends Component {
   }));
 
   loadAppData = () => {
-    fetch('https://cors-anywhere.herokuapp.com/https://24systems.ro/xml-php/st0.xml')
+    fetch('https://cors-anywhere.herokuapp.com/http://86.122.193.127:8010/xml/ix.xml')
       .then(response => response.text())
       .then(str => (new window.DOMParser()).parseFromString(str, "application/xml"))
       .then(data => {
@@ -35,6 +35,11 @@ class App extends Component {
             xmlData: this.xmlToJson(data).response
           };
         });
+      })
+      .catch(reason => {
+        this.setState(state => { return { isLoading: false } });
+        this.setState(state => { return { firstLoad: false } });
+        this.setState(state => { return { error: true } });
       });
   };
 
@@ -44,7 +49,7 @@ class App extends Component {
         {
           this.state.isLoading ?
             <CircularProgress className={this.classes.progress} /> :
-            <TempData xmlData={this.state.xmlData} />
+            <TempData xmlData={this.state.error ? this.state.error : this.state.xmlData} />
         }
       </div>
     );

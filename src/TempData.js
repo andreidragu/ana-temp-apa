@@ -70,7 +70,7 @@ class TempData extends Component {
                                     backgroundColor: '#FFB300',
                                     backgroundImage: `url('./res/temp.svg')`,
                                     backgroundRepeat: 'no-repeat',
-                                    backgroundPosition: '75% 50%',
+                                    backgroundPosition: '85% 50%',
                                     backgroundSize: '10%'
                                 }}>
                                     <TempCard title='Piscina Mare' subtitle={piscinaMare}></TempCard>
@@ -126,7 +126,7 @@ class TempData extends Component {
                             backgroundColor: pompa1Color,
                             backgroundImage: `url('./res/lightning.svg')`,
                             backgroundRepeat: 'no-repeat',
-                            backgroundPosition: '75% 50%',
+                            backgroundPosition: '85% 50%',
                             backgroundSize: '10%'
                         }}>
                             <TempCard title='Pompa 1' subtitle={pompa1State}></TempCard>
@@ -137,7 +137,7 @@ class TempData extends Component {
                             backgroundColor: pompa2Color,
                             backgroundImage: `url('./res/lightning.svg')`,
                             backgroundRepeat: 'no-repeat',
-                            backgroundPosition: '75% 50%',
+                            backgroundPosition: '85% 50%',
                             backgroundSize: '10%'
                         }}>
                             <TempCard title='Pompa 2' subtitle={pompa2State}></TempCard>

@@ -1,7 +1,7 @@
 {
-  "name": "ana-temp-apa",
+  "name": "anna",
   "version": "1.0.0",
-  "homepage": "http://andreidragu.github.io/ana-temp-apa/",
+  "homepage": "http://24systems.ro/anna",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.0.1",
